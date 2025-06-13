@@ -1,5 +1,6 @@
 #include <chrono> // For std::chrono::milliseconds
 #include <cstddef>
+#include <cstdio>
 #include <cstdlib> // For system()
 #include <iostream>
 #include <thread> // For std::this_thread::sleep_for
@@ -27,8 +28,8 @@ public:
   void printGrid() {
     for (const std::vector<bool> &row : grid) {
       for (const bool &cell : row)
-        // '*' represents a live cell while '.' represents a dead cell.
-        std::cout << (cell ? '*' : '.') << ' ';
+        // 'O' represents a live cell while '.' represents a dead cell.
+        std::cout << (cell ? 'O' : '.') << ' ';
       std::cout << std::endl;
     }
   }
