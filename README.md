@@ -2,7 +2,7 @@
 
 This is a simple, text-based implementation of John Conway's Game of Life, written in C++. It runs directly in the terminal and allows the user to define the initial state of the cellular automaton before starting the simulation.
 
-_(Example GIF showing a "Glider Gun" pattern)_
+![A Gosper Glider Gun in the Game Of Life](assets/gosper_glider_gun.gif)
 
 ## Features
 
